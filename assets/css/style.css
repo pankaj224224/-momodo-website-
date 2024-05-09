@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header  section start */
+
+.bg-blue{
+    background: #151D3D
+}
+
+
+nav select{
+    background: none;
+    color:white;
+    border:none;
+}
+
+.navbar .active{
+    color: red !important;
+}
+.bg-pink{
+    background: #5F3275
+}
+.bg-pink2{
+    background: red
+}
+
+
+.hp{
+    width:25px;
+    padding-left:8px;
+    color:white
+}
+
+.np{
+   width:1200px
+}
+
+
+
+/* Header  section close */
+
+
+
+
+/* Banner  section start */
+
+.banner{
+    background:linear-gradient(rgba(160, 200, 215, 0.5),
+    rgba(7, 10, 10, 0.5)),url(../img/banner.jpg);
+    
+   background-size: 100% 100%;
+   height: 550px;
+   width: 100%;
+  
+    
+}
+
+.top-15{
+top:15%
+}
+
+
+.bg-danger2{
+   background:  #5D327A
+}
+
+
+.bg-danger3{
+    background:  #4c2c62
+ }
+
+
+
+.nav-tabs .nav-link.active{
+    background:#f83044;
+}
+
+
+.form-control:focus{
+    box-shadow: 0px 0px 0px ;
+    
+
+}
+
+
+
+.blue{
+    color: #8e99f1;
+}
+/*.nav-pills .nav-link{
+    background:#4E336E;
+    color: #fff;
+   
+}
+
+.suit{
+    height: 20px;
+    margin: 4px 0px 0px 10px;
+    padding-right: px;
+  }
+ .sel{
+    background: transparent;
+    color:white;
+    border:none;
+    outline: 0;
+    
+    }
+    
+ 
+    
+
+.space1,.space2{
+    margin-left: 30px;
+}
+  .suit2{
+    height: 20px;
+    margin-top: 4px;
+    
+  }
+  .sel2{
+    margin-left: px;
+    background: transparent;
+    color:white;
+    border:none;
+    outline: 0;
+  }
+ 
+.space2 input{
+    height: 15px;
+    width: 15px;
+    margin-top: 8px;
+    
+}
+
+
+
+
+select option{
+   
+    border: none;
+    color: black;
+    font-size: 14px;
+    padding: 0px 30px;
+    outline: none;
+    
+}
+
+ */
+
+
+
+
+
+
+
+/* Banner  section close */
+
+
+
+/* FUN  section START */
+.fun{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.10)),url(../img/fun.jpg);
+    background-size: cover;
+    background-position:center;
+    color: #fff ;
+}
+
+
+
+/* FUN  section CLOSE */
+.dest{
+    background:rgb(50, 10, 50);
+}
+
+
+.dest p span{
+    color: rgb(176, 176, 46);
+}
+
+
+
+/* FUN  section CLOSE */
+
+
+
+
+
+/* Aeroplane section Start */
+
+
+
+.aeroplane{
+    background:linear-gradient(rgba(169, 102, 220, 0.8),rgba(195, 178, 203, 0.8)),url(../img/aeroplane.webp);
+   
+    background-size: cover;
+    
+    background-position: center;
+    
+}
+
+.aeroplane input{
+    background: transparent;
+    color: #fff;
+    border: 1px solid white;
+    padding: 8px;
+    
+   
+}
+
+
+.aeroplane input::-webkit-input-placeholder {
+    color: white;
+}
+
+/* .aeroplane h1{
+    font-size: 25px;
+    
+}
+
+.aeroplane p{
+    text-align: center;
+    
+}
+
+.aeroplane input{
+    width: 400px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid white;
+    padding: 6px;
+    
+   
+}
+
+ .aeroplane ::-webkit-input-placeholder {
+    color:white;
+    
+} */
+
+/* Aeroplane section Close */
+
+
+
+
+
+
+
+
+
+
+/* QUICK SECTION START */
+.quick{
+    background:#664cad;
+
+   
+}
+
+
+.sideimg{
+    height: 270px;
+    width:17%;
+    display: block;
+}
+
+
+
+
+
+/* QUICK SECTION CLOSE */
+
+
+
+
+/* .dot .m1{
+    border: 2px solid black;
+    border-radius: 100px;
+    display: inline;
+    justify-content: center;
+    height: 400px;width: 80px;
+    background-color: #151D3D;
+} */
+
+.m1{
+    background-color: #4E336E;
+    height: 8px;width: 8px;
+    border-radius: 100px;
+   margin-top: 3px;
+}
+
+
+.m2{
+    border: 2px solid #4E336E;
+    background: #fff;
+    height: 15px;width: 15px;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer img{
+    height: 20px;width: 20px;
+}
+
+
+
+footer ul li{
+    display: inline;
+    padding: 10px;
+    
+    
+}
+
+footer .col-lg-3{
+    letter-spacing: 20px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 991px){
+    .circleself{
+        height:70px;
+    width:70px;
+    border-radius: 50%;
+    position: absolute;
+    top:15%;
+    right:1%;
+    font-size: 14px;
+    text-align: center;
+    background: #f83044;
+    color:white;
+    border: none;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+.top-15{
+    top: 10%;
+}
+
+.sideimg{
+    display: none;
+}
+
+
+/* Aeroplane section Start
+.aeroplane input{
+    width: 250px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid white;
+    padding: 6px;
+}
+
+ .aeroplane::-webkit-input-placeholder {
+    color:white;
+ } */
+    }
+    
+    @media screen and (max-width: 320px){
+   
+           
+        .btn-width-85{
+            width: 85px !important;
+            font-size: 10px !important;
+            margin: 0px auto;
+        }
+    }
+  
